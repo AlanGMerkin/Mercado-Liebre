@@ -1,0 +1,399 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/*HEADER*/
+
+
+   
+.header {
+    display: flex;
+    background-color: #EAC926;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+ .header_top_bar {
+display: flex;
+ }
+ 
+ .logo_ML {
+     width: 50%;
+ }
+
+ .barra_busqueda_y_lupa {
+     display: flex;
+     width: 50px;
+ }
+
+ .busquedaProductos {
+     width: 50px;
+ }
+ 
+
+ .fa-search {
+     background-color: white;
+ }
+
+
+ .cuotasSinInteres {
+     font-weight: 400;
+     text-align: center;
+ }
+
+ .burger-menu {
+    background-color: #03264C;
+    color: white;
+    /* display: block; */
+    max-width: 50px;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 18px;
+    text-align: center;
+    justify-content: center;
+ }
+
+ .barras_de_navegacion {
+     display: none;
+ }
+
+.barras_de_navegacion ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+      }
+
+      .barras_de_navegacion a {
+          text-decoration: none;
+          color: #222222;
+          display: inline-block;
+          padding: 5px 0px;
+          font-style: 17px;
+         }
+         /* .titulares {
+             font-size: 24px;
+            }
+            
+            .cuotasSinInteres {
+    font-size: 1em;
+}
+
+
+
+
+/*BANNER*/
+
+
+
+.banner {
+    display:flex;
+    margin-top: 240px;
+ }
+ 
+ .bannerResponsive{
+    width: 100%;
+    height: auto;
+ }
+ /*
+ 
+
+ /*MAIN*/
+ 
+ 
+ 
+ .imagenesProductos{
+     width: 75%;
+     height: auto;
+    }
+
+    .main { 
+        text-align: center;
+        width: 90vw;
+}
+
+.DetallesDeProductos {
+    text-align: center;
+    border-top: solid 1px #ebebeb;    
+}
+
+.productoGeneral {
+    border-style: solid; 
+    border: 15px;
+    border-color: rgb(223, 220, 220);
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+/* .productoGeneral i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: solid 1px #39b54a;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+} */
+
+.fa-truck {
+    
+    text-align: center;
+    color: #39b54a;
+    font-size: 2em;
+    margin-top: 10px;
+
+}
+
+
+p {
+    font-size: 24px;
+}
+
+.precio_y_descuento {
+display: flex;
+}
+
+.precios {
+    width: 30%;
+}
+
+.descuentos {
+    width: 70%;
+}
+
+
+.precios {
+    font-size: 18px;
+}
+
+.descuentos {
+    font-size: 16px;
+    color: #39b54a;
+}
+
+.descripciones {
+    display: none;
+    font-size: 16px;
+}
+
+.iconos {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 2em;
+    color: #1259c3;
+}
+
+
+
+/*FORMULARIOS LOGIN Y REGISTRER*/
+
+
+
+.create-form {
+    padding: 15px 15px;
+    background-color: #EAC926;
+    display: flex;
+    flex-direction: column;
+    border: solid 2px grey;
+    width: 90%;
+    margin-left: auto;
+    margin-right:auto;
+    }
+
+    .control-formulario {
+margin-bottom: 15px;
+    }
+
+    .control-formulario label {
+margin-bottom: 5px;
+font-style: italic;
+display: block;
+    }
+
+    .control {
+        width: 100%;
+        padding: 8px 8px;
+        border-radius: 5px;
+    }
+
+    .boton_formulario {
+background-color: #1259c3;
+border: none;
+font-size: 20px;
+color: #ffffff;
+padding: 5px 10px;
+border-radius: 5px;
+width: 20%;
+    }
+
+    .boton_login {
+        display:inline-block;
+        text-align:center;
+        padding: 15px;
+    }
+
+    .boton_register {
+        display:inline-block;
+        text-align:center;
+        padding: 15px;
+    }
+
+
+
+/*FOOTER*/
+
+
+
+.footer {
+    text-align: center;
+    background-color: white;
+    font-family: 'Roboto';
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.cuerpoDelTexto {
+    font-size: 12px;
+    font-family: 'Roboto';
+}
+
+.descripciones {
+    display:flex;
+    justify-content: center;
+   opacity: 0;
+}
+
+.descripciones:hover {
+    opacity: 1;
+}
+
+.productoGeneral:hover .descripciones {
+display: block;
+}
+
+.productoGeneral {
+    box-shadow : 0px 0px 10px #666;
+    /* display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: auto;
+    box-sizing: border-box;
+    width: fit-content;
+    background-repeat: 5px; */
+}
+
+
+/*MEDIAS*/
+
+
+@media (min-width: 480px) {
+    .barras_de_navegacion {
+        display: flex;
+        justify-content: space-between;
+    }
+    .burger-menu{
+        display:none;
+    }
+
+}
+
+
+
+@media (min-width: 768px) {
+   .header_top_bar {
+       display: flex;
+       justify-content: space-between;
+   }
+   .cuotasSinInteres {
+       max-width: 300px;
+       text-align: right;
+   }
+   .burger-menu {
+       display: none;
+   }
+   .barras_de_navegacion {
+       display: flex;
+       justify-content: space-between;
+   }
+   .barras_de_navegacion ul {
+       display: flex;
+   }
+   .barras_de_navegacion li {
+       margin: 0 5px;
+   }
+   .productoGeneral {
+       box-shadow : 0px 0px 10px #666;
+   }
+   .descripciones {
+    display:flex;
+}
+}
+
+@media (min-width: 1279px) {
+   .logo_ML { 
+       width: 250px;
+   }
+  .header_top_bar, .barras_de_navegacion {
+      max-width: 1200px;
+      margin: auto;
+   }
+   .header_top_bar {
+       align-items: center;
+   }
+.barras_de_navegacion {
+   margin-top: 40px;
+}
+.cuotasSinInteres {
+   max-width: none;
+   font-style: 18px;
+   font-weight: 400;
+   margin: 0;
+}
+.barras_de_navegacion li {
+   margin: 0 10px;
+}
+.barras_de_navegacion a {
+   font-size: 19px;
+}
+.descripciones {
+    display:flex;
+}
+.productoGeneral {
+    box-shadow : 0px 0px 10px #666;
+}
+}
+
+/* 
+.cuotasSinInteres {
+    min-width: 350px;
+}
+.burger-menu {
+    display: none;
+}
+.productoGeneral {
+    box-shadow : 0px 0px 10px #666;
+}
+} */
+
+/* @media (max-width: 360px) {
+      .descripciones {
+          display: none;
+      }
+      .barras_de_navegacion {
+        display: none;
+      }
+} */
