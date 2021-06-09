@@ -66,6 +66,7 @@ display: flex;
 
  .barras_de_navegacion {
      display: none;
+     border: solid 1px red;
  }
 
 .barras_de_navegacion ul {
@@ -115,16 +116,19 @@ display: flex;
  .imagenesProductos{
      width: 75%;
      height: auto;
+     border: solid 1px red;
     }
 
     .main { 
         text-align: center;
         width: 90vw;
+        border: solid 1px red;
 }
 
 .DetallesDeProductos {
     text-align: center;
     border-top: solid 1px #ebebeb;    
+    border: solid 1px red;
 }
 
 .productoGeneral {
@@ -133,6 +137,7 @@ display: flex;
     border-color: rgb(223, 220, 220);
     margin-left: 25px;
     margin-bottom: 10px;
+    border: solid 1px red;
 }
 
 /* .productoGeneral i{
@@ -169,25 +174,14 @@ display: flex;
 
 .precios {
     width: 30%;
-}
-
-.descuentos {
-    width: 70%;
-}
-
-
-.precios {
     font-size: 18px;
 }
 
+
 .descuentos {
+    width: 70%;
     font-size: 16px;
     color: #39b54a;
-}
-
-.descripciones {
-    display: none;
-    font-size: 16px;
 }
 
 .iconos {
@@ -262,9 +256,14 @@ width: 20%;
     text-align: center;
     background-color: white;
     font-family: 'Roboto';
-    /* display: flex;
-    justify-content: space-between; */
-}
+    border: solid 1px red;
+    }
+
+    .footer article {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 15px;
+    }
 
 .cuerpoDelTexto {
     font-size: 12px;
@@ -275,6 +274,8 @@ width: 20%;
     display:flex;
     justify-content: center;
    opacity: 0;
+    display: none;
+    font-size: 16px;
 }
 
 .descripciones:hover {
@@ -283,6 +284,10 @@ width: 20%;
 
 .productoGeneral:hover .descripciones {
 display: block;
+}
+
+.copyright {
+    display: flex;
 }
 
 .productoGeneral {
