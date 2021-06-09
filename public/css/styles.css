@@ -97,16 +97,13 @@ display: flex;
 
 
 
-.banner {
-    display:flex;
-    margin-top: 240px;
- }
- 
  .bannerResponsive{
     width: 100%;
     height: auto;
+    display:flex;
+    margin-top: 227px;
  }
- /*
+ 
  
 
  /*MAIN*/
@@ -140,6 +137,36 @@ display: flex;
     border: solid 1px red;
 }
 
+.descripciones {
+    display:flex;
+    justify-content: center;
+   opacity: 0;
+    display: none;
+    font-size: 16px;
+}
+
+.descripciones:hover {
+    opacity: 1;
+}
+
+.productoGeneral:hover .descripciones {
+display: block;
+}
+
+.copyright {
+    display: flex;
+}
+
+.productoGeneral {
+    box-shadow : 0px 0px 10px #666;
+    /* display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: auto;
+    box-sizing: border-box;
+    width: fit-content;
+    background-repeat: 5px; */
+}
 /* .productoGeneral i{
     display: block;
     font-size: 16px;
@@ -169,7 +196,7 @@ p {
 }
 
 .precio_y_descuento {
-display: flex;
+    display: flex;
 }
 
 .precios {
@@ -183,6 +210,7 @@ display: flex;
     font-size: 16px;
     color: #39b54a;
 }
+
 
 .iconos {
     margin-bottom: 10px;
@@ -233,7 +261,7 @@ padding: 5px 10px;
 border-radius: 5px;
 width: 20%;
     }
-
+    
     .boton_login {
         display:inline-block;
         text-align:center;
@@ -268,37 +296,6 @@ width: 20%;
 .cuerpoDelTexto {
     font-size: 12px;
     font-family: 'Roboto';
-}
-
-.descripciones {
-    display:flex;
-    justify-content: center;
-   opacity: 0;
-    display: none;
-    font-size: 16px;
-}
-
-.descripciones:hover {
-    opacity: 1;
-}
-
-.productoGeneral:hover .descripciones {
-display: block;
-}
-
-.copyright {
-    display: flex;
-}
-
-.productoGeneral {
-    box-shadow : 0px 0px 10px #666;
-    /* display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: auto;
-    box-sizing: border-box;
-    width: fit-content;
-    background-repeat: 5px; */
 }
 
 
