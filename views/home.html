@@ -17,25 +17,24 @@
      <header class="header">
       <div class="header_top_bar">
         <a href="/"><img src="/img/logo-mercado-liebre.svg" alt="Logo Mercado Liebre" class="logo_ML"></img></a>
-        <!-- <form class="busquedaProductos">
-          <label class="barra_busqueda_y_lupa">
-        <input type="search" name="busquedaProductos" placeholder="Buscá tu producto">
-        <button><i class="fas fa-search"></i></button>
-      </label>
-        </form> -->
-      </div>
+        <form action="/search" method="GET" class="busquedaProductos">
+         <input type="text" name="busquedaProductos" placeholder="Buscá tu producto" class="busqueda_input">
+         <button type="submit" class="busqueda_boton"><i class="fas fa-search"></i></button>
+        </form>
         <h2 class="cuotasSinInteres"><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</h2>
+      </div>
         <nav class="barras_de_navegacion">
           <ul class="barra_nav_izq">
-           <li><a href="https://www.mercadoliebre.com/ofertas">Ofertas</a></li>
-           <li><a href="https://www.mercadoliebre.com/tiendas_oficiales">Tiendas oficiales</a></li>
-           <li><a href="https://www.mercadoliebre.com/vender">Vender</a></li>
-           <li><a href="https://www.mercadoliebre.com/ayuda">Ayuda</a></li>
+            <li><a href="/">Todos los productos</a></li>
+            <li><a href="https://www.mercadoliebre.com/ofertas">Ofertas</a></li>
+            <li><a href="https://www.mercadoliebre.com/tiendas_oficiales">Tiendas oficiales</a></li>
+            <li><a href="https://www.mercadoliebre.com/vender">Vender</a></li>
+            <li><a href="https://www.mercadoliebre.com/ayuda">Ayuda</a></li>
           </ul>
           <ul class="barra_nav_der">
-           <li><a href="/register">Creá tu cuenta </a><i class="far fa-id-card"></i></li>
-           <li><a href="/login">Ingresá </a><i class="fas fa-sign-in-alt"></i></li>
-           <li><a href="/mis_compras">Mis compras </a><i class="fas fa-shopping-basket"></i></li>
+            <li><a href="/register">Creá tu cuenta </a><i class="far fa-id-card"></i></li>
+            <li><a href="/login">Ingresá </a><i class="fas fa-sign-in-alt"></i></li>
+            <li><a href="/mis_compras">Mis compras </a><i class="fas fa-shopping-basket"></i></li>
           </ul>
         </nav>
 
@@ -54,9 +53,9 @@
       
       <main class="main">
       
-       <section>
-        
         <h3 class="titulares">Basado en tu última visita</h3>
+        
+        <section class="conteiner">
 
         <article class="productoGeneral">
 
@@ -128,11 +127,11 @@
 
       </section>
 
+      <br>
+      <h3 class="titulares">Sección de Ofertas</h3>
       
-      <section>
-        
-        <br>
-        <h3 class="titulares">Sección de Ofertas</h3>
+      
+      <section  class="conteiner">
         
         <article class="productoGeneral">
           
