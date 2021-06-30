@@ -95,7 +95,7 @@ align-self: center;
  .barras_de_navegacion {
      display: flex;
      display: none;
-     border: solid 1px red;
+    
  }
 
 .barras_de_navegacion ul {
@@ -142,18 +142,18 @@ align-self: center;
  .imagenesProductos{
      width: 40%;
      height: auto;
-     border: solid 1px red;
+    
     }
 
     .main { 
         text-align: center;
-        border: solid 1px red;
+    
 }
 
 .DetallesDeProductos {
     text-align: center;
     border-top: solid 1px #ebebeb;    
-    border: solid 1px red;
+
 }
 
 .productoGeneral {
@@ -162,7 +162,7 @@ align-self: center;
     border-color: rgb(223, 220, 220);
     margin-left: 25px;
     margin-bottom: 10px;
-    border: solid 1px red;
+
 }
 
 .descripciones {
@@ -312,7 +312,7 @@ width: 20%;
     text-align: center;
     background-color: white;
     font-family: 'Roboto';
-    border: solid 1px red;
+
     }
 
     .footer article {
